@@ -2,7 +2,7 @@
 
 A small set of ideas on animating images and other elements while smooth scrolling a page.
 
-![Image Title](link)
+![Smooth Scrolling Image Effects](https://tympanus.net/codrops/wp-content/uploads/2019/07/SmoothScrollingEffects_featured.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=42459)
 
