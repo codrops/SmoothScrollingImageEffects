@@ -276,8 +276,12 @@
                 }
             }
             
-            // loop..
-            requestAnimationFrame(() => this.render());
+            // loop when scrolling..
+            if ( scrollingSpeed !== 0 ) {
+                requestAnimationFrame(() => this.render());
+            } else {
+                window.addEventListener( 'scroll', () => requestAnimationFrame(() => this.render()), { once: true, passive: true })
+            }
         }
     }
 
